@@ -1,0 +1,158 @@
+body {
+	background-color: antiquewhite;
+	
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 1em auto;
+
+}
+
+header {
+
+	background-color: rgb(12, 136, 182);
+	margin: 1rem;
+	padding: 1rem;
+	border-radius: 20px;
+	box-shadow: inset 3px 3px 10px black;
+
+}
+header h1 {
+	font-size: 200%;
+	margin: 1rem;
+	text-align: center;
+	color: white;
+	
+	
+}
+section {
+	background-color: aliceblue;
+	border-radius: 20px;
+	padding: 1rem;
+}
+
+header p { 
+	color: white;
+}
+
+.nav-bar {
+	background-color: rgba(52, 52, 221, 0.656);
+	margin: 1rem;
+	padding: .5em;
+	border-radius: 20px ;
+	box-shadow: 3px 3px 10px black;
+}
+nav ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 1rem;
+	border-radius: 10px;
+	
+}
+nav a:hover {
+	background-color: black;
+	
+}
+
+nav li {
+	list-style-type: none;
+}
+
+main {
+	padding: 1rem;
+	
+	
+	}
+
+div.intro {
+	
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: inset 3px 3px 7px ;
+	padding: 1em .5em .5em 1em
+}
+
+
+img {
+	display: flex;
+	flex: center;
+	max-width: 100%;
+	max-height: auto;
+	border-radius: 20px;
+	margin: 1em;
+	
+}
+
+.toppicks {
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: inset 3px 3px 7px ;
+	padding: .5em .5em;
+	margin-top: -.5em;
+
+}
+
+.main-grid {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	margin: 1.5em 0 0 0 ;
+}
+
+.right-col {
+
+	padding: 2em ;
+	font-size: 135%;
+	border-radius: 20px;
+margin: 0 0 1.5em 1.5em  ;
+box-shadow: inset 3px 3px 10px black;
+
+}
+
+h4 {
+text-decoration: underline;
+margin: 0 0 1em 0;
+color: green;
+
+}
+
+.product-name {
+text-decoration: bold;
+margin: 0 0 1em 0;
+
+}
+
+.made-from {
+ font-style:italic;
+}
+
+footer {
+	font-size: 300%;
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+	padding: .5em;
+
+}
+footer a {
+   color: black;
+
+}
+
+
+ h4 a:hover {
+	background-color: rgb(12, 136, 182);
+	padding:1em;
+	border-radius: 20px;
+	color: black;
+
+
+ }
+
+ 
